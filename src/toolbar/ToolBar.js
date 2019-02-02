@@ -310,11 +310,11 @@ class ToolBar extends Component {
       });
     } else {
       toolbar = [ (
-        <div key='toolbar-left' className='col-xs-6 col-sm-6 col-md-6 col-lg-8'>
+        <div key='toolbar-left' className='col-xs-12 col-sm-12 col-md-6 col-lg-12'>
           { this.props.searchPosition === 'left' ? searchPanel : btnGroup }
         </div>
       ), (
-        <div key='toolbar-right' className='col-xs-6 col-sm-6 col-md-6 col-lg-4'>
+        <div key='toolbar-right' className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
           { this.props.searchPosition === 'left' ? btnGroup : searchPanel }
         </div>
       ) ];
